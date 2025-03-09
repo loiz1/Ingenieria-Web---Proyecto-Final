@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo Diferencial</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <div class="banner">
+        <h1>Universidad Minuto de DIOS</h1>
+    </div>
+    <nav>
+        <a href="index.html" class="nav-link">Inicio</a>
+        <a href="aula.html" class="nav-link">Volver</a>
+    </nav>
+    <h2>Cálculo Diferencial</h2>
+    <img src="img/cd.png" alt="Imagen Cálculo Diferencial" class="curso-imagen">
+    <div class="curso-grid">
+        <div class="curso-card">
+            <h3 class="curso-titulo">Contenidos</h3>
+            <a href="#modal-actividad-total" class="curso-boton1">Actividades del Curso</a>
+            <a href="#modal-tematicas" class="curso-boton1">Tematicas del Curso</a>
+        </div>
+        <div class="curso-card">
+            <h3 class="curso-titulo">Unidad 1</h3>
+            <div class="div-guia">
+                <a href="#modal-guia1" class="curso-boton1">Guía 1</a>
+                <a href="#modal-actividad1" class="curso-boton1">Actividad 1</a>
+            </div>
+            <div class="div-guia">
+                <a href="#modal-guia2" class="curso-boton1">Guía 2</a>
+                <a href="#modal-actividad2" class="curso-boton1">Actividad 2</a>
+            </div>
+            <div class="div-guia">
+                <a href="#modal-guia3" class="curso-boton1">Guía 3</a>
+                <a href="#modal-actividad3" class="curso-boton1">Actividad 3</a>
+            </div>
+        </div>
+        <div class="curso-card">
+            <h3 class="curso-titulo">Unidad 2</h3>
+            <div class="div-guia">
+                <a href="#modal-guia4" class="curso-boton1">Guía 4</a>
+                <a href="#modal-actividad4" class="curso-boton1">Actividad 4</a>
+            </div>
+            <div class="div-guia">
+                <a href="#modal-guia5" class="curso-boton1">Guía 5</a>
+                <a href="#modal-actividad5" class="curso-boton1">Actividad 5</a>
+            </div>
+            <div class="div-guia">
+                <a href="#modal-guia6" class="curso-boton1">Guía 6</a>
+                <a href="#modal-actividad6" class="curso-boton1">Actividad 6</a>
+            </div>
+        </div>
+        <div class="curso-card">
+            <h3 class="curso-titulo">Unidad 3</h3>
+            <div class="div-guia">
+                <a href="#modal-guia7" class="curso-boton1">Guía 7</a>
+                <a href="#modal-actividad7" class="curso-boton1">Actividad 7</a>
+            </div>
+            <div class="div-guia">
+                <a href="#modal-guia8" class="curso-boton1">Guía 8</a>
+                <a href="#modal-actividad8" class="curso-boton1">Actividad 8</a>
+            </div>
+            <div class="div-guia">
+                <a href="#modal-guia9" class="curso-boton1">Guía 9</a>
+                <a href="#modal-actividad9" class="curso-boton1">Actividad 9</a>
+            </div>
+        </div>
+    </div>
+    <!-- Ventana Modal Actividades -->
+    <div id="modal-actividad-total" class="modal">
+        <div class="modal-content">
+            <a href="#" class="close">×</a>
+            <h1>Actividades del Curso</h1>
+            <ul id="tareas-realizadas"></ul>
+            <ul id="tareas-pendientes"></ul>
+        </div>
+    </div>
+    <div id="modal-tematicas" class="modal">
+        <div class="modal-content">
+            <a href="#" class="close">×</a>
+            <h1>Temáticas del Curso</h1>
+            <!-- Unidad 1 -->
+            <div class="unidad">
+                <h2>Unidad 1: Introducción al Cálculo Diferencial</h2>
+                <ul id="Unidad-1">
+                    <li>
+                        <h3>Límites y Continuidad</h3>
+                        <p>Estudiar conceptos básicos de límites y continuidad</p>
+                        <h4>Fecha Máxima: 10-09-25</h4>
+                    </li>
+                    <li><br>
+                        <h3>Derivadas Básicas</h3>
+                        <p>Calcular derivadas de funciones polinómicas y exponenciales</p>
+                        <h4>Fecha Máxima: 15-09-25</h4>
+                    </li>
+                    <li><br>
+                        <h3>Reglas de Derivación</h3>
+                        <p>Aprender y aplicar reglas de derivación</p>
+                        <h4>Fecha Máxima: 20-09-25</h4>
+                    </li>
+                </ul>
+            </div>
+            <!-- Unidad 2 -->
+            <div class="unidad">
+                <h2>Unidad 2: Aplicaciones de la Derivada</h2>
+                <ul id="Unidad-2">
+                    <li><br>
+                        <h3>Optimización</h3>
+                        <p>Resolver problemas de optimización utilizando derivadas</p>
+                        <h4>Fecha Máxima: 25-09-25</h4>
+                    </li>
+                    <li><br>
+                        <h3>Tangentes y Rectas Normales</h3>
+                        <p>Encontrar ecuaciones de tangentes y rectas normales</p>
+                        <h4>Fecha Máxima: 05-10-25</h4>
+                    </li>
+                    <li><br>
+                        <h3>Teorema del Valor Medio</h3>
+                        <p>Comprender y aplicar el teorema del valor medio</p>
+                        <h4>Fecha Máxima: 10-10-25</h4>
+                    </li>
+                </ul>
+            </div>
+            <!-- Unidad 3 -->
+            <div class="unidad">
+                <h2>Unidad 3: Derivadas Parciales</h2>
+                <ul id="Unidad-3">
+                    <li><br>
+                        <h3>Derivadas Parciales de Funciones de Varias Variables</h3>
+                        <p>Calcular derivadas parciales de funciones multivariables</p>
+                        <h4>Fecha Máxima: 15-10-25</h4>
+                    </li>
+                    <li><br>
+                        <h3>Gradientes y Vectores Direccionales</h3>
+                        <p>Estudiar gradientes y vectores direccionales</p>
+                        <h4>Fecha Máxima: 20-10-25</h4>
+                    </li>
+                    <li><br>
+                        <h3>Máximos y Mínimos Relativos</h3>
+                        <p>Identificar máximos y mínimos relativos de funciones multivariables</p>
+                        <h4>Fecha Máxima: 25-10-25</h4>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- Ventana Modal Guia 1 y Actividad 1 -->
+    <div id="modal-guia1" class="modal">
+        <div class="modal-content">
+            <a href="#" class="close">×</a>
+            <h1>Guía de Aprendizaje 1</h1><br>
+            <h2>Límites y Continuidad</h2> 
+            <p>Los límites son valores que una función puede acercarse a medida que la variable independiente se acerca a un punto específico. La continuidad se refiere a la propiedad de una función de ser continua en un intervalo dado.</p><br>
+            <h3>Conceptos Básicos</h3>
+            <p>Definición de límite, cálculo de límites, continuidad en un punto y en un intervalo.</p>
+            <br><a href="#modal-actividad1" class="curso-boton1">Actividad</a>
+        </div>
+    </div>
+    <div id="modal-actividad1" class="modal2">
+        <div class="modal-content">
+            <a href="#" class="close">×</a>
+            <h1>Actividad 1</h1><br>
+            <h2>Estudiar conceptos básicos de límites y continuidad</h2>
+            <label>
+                <input type="checkbox" name="checkbox" data-id="CALCULO DIFERENCIAL - Actividad 1 - Unidad 1" data-unidad="1">
+                <span>Tarea Realizada</span>
+            </label>
+            <br><br>
+            <h4>Fecha Máxima: 10-09-25</h4>
+        </div>
+    </div>
+    <!-- Ventana Modal Guia 2 y Actividad 2 -->
+    <div id="modal-guia2" class="modal">
+        <div class="modal-content">
+            <a href="#" class="close">×</a>
+            <h1>Guía de Aprendizaje 2</h1><br>
+            <h2>Derivadas Básicas</h2>
+            <p>Las derivadas son herramientas matemáticas que miden la tasa de cambio de una función en un punto dado. Aprender a calcular derivadas de funciones polinómicas y exponenciales es fundamental para el estudio del cálculo diferencial.</p><br>
+            <h3>Principios de Derivación</h3>
+            <p>Definición de derivada, regla de potencias, derivadas de funciones exponenciales.</p>
+            <br><a href="#modal-actividad2" class="curso-boton1">Actividad</a>
+        </div>
+    </div>
+    <div id="modal-actividad2" class="modal2">
+        <div class="modal-content">
+            <a href="#" class="close">×</a>
+            <h1>Actividad 2</h1><br>
+            <h2>Calcular derivadas de funciones polinómicas y exponenciales</h2>
+            <label>
+                <input type="checkbox" name="checkbox" data-id="CALCULO DIFERENCIAL - Actividad 2 - Unidad 1" data-unidad="1">
+                <span>Tarea Realizada</span>
+            </label>
+            <br><br>
+            <h4>Fecha Máxima: 15-09-25</h4>
+        </div>
+    </div>
+    <!-- Ventana Modal Guia 3 y Actividad 3 -->
+    <div id="modal-guia3" class="modal">
+        <div class="modal-content">
+            <a href="#" class="close">×</a>
+            <h1>Guía de Aprendizaje 3</h1><br>
+            <h2>Reglas de Derivación</h3>
+            <p>Existen varias reglas que simplifican el proceso de calcular derivadas de funciones complejas. Estas reglas incluyen la regla del producto, la regla del cociente y la cadena.</p><br>
+            <h3>Aplicación de Reglas de Derivación</h3>
+            <p>Regla del producto, regla del cociente, regla de la cadena.</p>
+            <br><a href="#modal-actividad3" class="curso-boton1">Actividad</a>
+        </div>
+    </div>
+    <div id="modal-actividad3" class="modal2">
+        <div class="modal-content">
+            <a href="#" class="close">×</a>
+            <h1>Actividad 3</h1><br>
+            <h2>Aprender y aplicar reglas de derivación</h2>
+            <label>
+                <input type="checkbox" name="checkbox" data-id="CALCULO DIFERENCIAL - Actividad 3 - Unidad 1" data-unidad="1">
+                <span>Tarea Realizada</span>
+            </label>
+            <br><br>
+            <h4>Fecha Máxima: 20-09-25</h4>
+        </div>
+    </div>
+    <!-- Ventana Modal Guia 4 y Actividad 4 -->
+    <div id="modal-guia4" class="modal">
+        <div class="modal-content">
+            <a href="#" class="close">×</a>
+            <h1>Guía de Aprendizaje 4</h1><br>
+            <h2>Optimización</h2>
+            <p>La optimización es el proceso de encontrar el máximo o mínimo valor de una función sujeta a ciertas restricciones. Es una aplicación importante de las derivadas en diversas áreas como ingeniería, economía y física.</p><br>
+            <h3>Problemas de Optimización</h3>
+            <p>Formulación de problemas de optimización, uso de derivadas para encontrar máximos y mínimos.</p>
+            <br><a href="#modal-actividad4" class="curso-boton1">Actividad</a>
+        </div>
+    </div>
+    <div id="modal-actividad4" class="modal2">
+        <div class="modal-content">
+            <a href="#" class="close">×</a>
+            <h1>Actividad 4</h1><br>
+            <h2>Resolver problemas de optimización utilizando derivadas</h2>
+            <label>
+                <input type="checkbox" name="checkbox" data-id="CALCULO DIFERENCIAL - Actividad 4 - Unidad 2" data-unidad="2">
+                <span>Tarea Realizada</span>
+            </label>
+            <br><br>
+            <h4>Fecha Máxima: 25-09-25</h4>
+        </div>
+    </div>
+    <!-- Ventana Modal Guia 5 y Actividad 5 -->
+    <div id="modal-guia5" class="modal">
+        <div class="modal-content">
+            <a href="#" class="close">×</a>
+            <h1>Guía de Aprendizaje 5</h1><br>
+            <h2>Tangentes y Rectas Normales</h2>
+            <p>Las tangentes y rectas normales son conceptos importantes en el cálculo diferencial que describen la línea tangente y la recta perpendicular a la curva en un punto dado.</p><br>
+            <h3>Encontrar Ecuaciones de Tangentes y Rectas Normales</h3>
+            <p>Ecuación de la tangente, ecuación de la recta normal.</p>
+            <br><a href="#modal-actividad5" class="curso-boton1">Actividad</a>
+        </div>
+    </div>
+    <div id="modal-actividad5" class="modal2">
+        <div class="modal-content">
+            <a href="#" class="close">×</a>
+            <h1>Actividad 5</h1><br>
+            <h2>Encontrar ecuaciones de tangentes y rectas normales</h2>
+            <label>
+                <input type="checkbox" name="checkbox" data-id="CALCULO DIFERENCIAL - Actividad 5 - Unidad 2" data-unidad="1">
+                <span>Tarea Realizada</span>
+            </label>
+            <br><br>
+            <h4>Fecha Máxima: 05-10-25</h4>
+        </div>
+    </div>
+    <!-- Ventana Modal Guia 6 y Actividad 6 -->
+    <div id="modal-guia6" class="modal">
+        <div class="modal-content">
+            <a href="#" class="close">×</a>
+            <h1>Guía de Aprendizaje 6</h1><br>
+            <h2>Teorema del Valor Medio</h2>
+            <p>El teorema del valor medio es un teorema fundamental en el cálculo diferencial que establece que existe al menos un punto en el intervalo donde la derivada de la función es igual a la tasa de cambio promedio de la función en ese intervalo.</p><br>
+            <h3>Comprender y Aplicar el Teorema del Valor Medio</h3>
+            <p>Definición del teorema, aplicaciones del teorema.</p>
+            <br><a href="#modal-actividad6" class="curso-boton1">Actividad</a>
+        </div>
+    </div>
+    <div id="modal-actividad6" class="modal2">
+        <div class="modal-content">
+            <a href="#" class="close">×</a>
+            <h1>Actividad 6</h1><br>
+            <h2>Comprender y aplicar el teorema del valor medio</h2>
+            <label>
+                <input type="checkbox" name="checkbox" data-id="CALCULO DIFERENCIAL - Actividad 6 - Unidad 2" data-unidad="1">
+                <span>Tarea Realizada</span>
+            </label>
+            <br><br>
+            <h4>Fecha Máxima: 10-10-25</h4>
+        </div>
+    </div>
+    <!-- Ventana Modal Guia 7 y Actividad 7 -->
+    <div id="modal-guia7" class="modal">
+        <div class="modal-content">
+            <a href="#" class="close">×</a>
+            <h1>Guía de Aprendizaje 7</h1><br>
+            <h2>Derivadas Parciales de Funciones de Varias Variables</h2>
+            <p>Las derivadas parciales son una extensión del concepto de derivada a funciones de varias variables. Se utiliza para medir la tasa de cambio de una función en una dirección específica.</p><br>
+            <h3>Calcular Derivadas Parciales</h3>
+            <p>Definición de derivada parcial, cálculo de derivadas parciales.</p>
+            <br><a href="#modal-actividad7" class="curso-boton1">Actividad</a>
+        </div>
+    </div>
+    <div id="modal-actividad7" class="modal2">
+        <div class="modal-content">
+            <a href="#" class="close">×</a>
+            <h1>Actividad 7</h1><br>
+            <h2>Calcular derivadas parciales de funciones de varias variables</h2>
+            <label>
+                <input type="checkbox" name="checkbox" data-id="CALCULO DIFERENCIAL - Actividad 7 - Unidad 3" data-unidad="1">
+                <span>Tarea Realizada</span>
+            </label>
+            <br><br>
+            <h4>Fecha Máxima: 15-10-25</h4>
+        </div>
+    </div>
+    <!-- Ventana Modal Guia 8 y Actividad 8 -->
+    <div id="modal-guia8" class="modal">
+        <div class="modal-content">
+            <a href="#" class="close">×</a>
+            <h1>Guía de Aprendizaje 8</h1><br>
+            <h2>Gradientes y Vectores Direccionales</h2>
+            <p>Los gradientes y vectores direccionales son conceptos importantes en el cálculo vectorial que describen la dirección y magnitud máxima de la tasa de cambio de una función en un punto dado.</p><br>
+            <h3>Estudiar Gradientes y Vectores Direccionales</h3>
+            <p>Definición de gradiente, definición de vector direccional.</p>
+            <br><a href="#modal-actividad8" class="curso-boton1">Actividad</a>
+        </div>
+    </div>
+    <div id="modal-actividad8" class="modal2">
+        <div class="modal-content">
+            <a href="#" class="close">×</a>
+            <h1>Actividad 8</h1><br>
+            <h2>Estudiar gradientes y vectores direccionales</h2>
+            <label>
+                <input type="checkbox" name="checkbox" data-id="CALCULO DIFERENCIAL - Actividad 8 - Unidad 3" data-unidad="1">
+                <span>Tarea Realizada</span>
+            </label>
+            <br><br>
+            <h4>Fecha Máxima: 20-10-25</h4>
+        </div>
+    </div>
+    <!-- Ventana Modal Guia 9 y Actividad 9 -->
+    <div id="modal-guia9" class="modal">
+        <div class="modal-content">
+            <a href="#" class="close">×</a>
+            <h1>Guía de Aprendizaje 9</h1><br>
+            <h2>Máximos y Mínimos Relativos</h2>
+            <p>Los máximos y mínimos relativos son puntos en los que una función alcanza su valor máximo o mínimo local dentro de un intervalo dado. Estos puntos son cruciales en el análisis de funciones de varias variables.</p><br>
+            <h3>Identificar Máximos y Mínimos Relativos</h3>
+            <p>Definición de máximos y mínimos relativos, métodos para identificarlos.</p>
+            <br><a href="#modal-actividad9" class="curso-boton1">Actividad</a>
+        </div>
+    </div>
+    <div id="modal-actividad9" class="modal2">
+        <div class="modal-content">
+            <a href="#" class="close">×</a>
+            <h1>Actividad 9</h1><br>
+            <h2>Identificar máximos y mínimos relativos de funciones multivariables</h2>
+            <label>
+                <input type="checkbox" name="checkbox" data-id="CALCULO DIFERENCIAL - Actividad 9 - Unidad 3" data-unidad="1">
+                <span>Tarea Realizada</span>
+            </label>
+            <br><br>
+            <h4>Fecha Máxima: 25-10-25</h4>
+        </div>
+    </div>
+    <footer>
+        <p> 2025 - Universidad Minuto de Dios.</p>
+    </footer>
+</body>
+</html>

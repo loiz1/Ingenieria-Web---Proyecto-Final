@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pregrado Cuatrimestral</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="./main.js" defer></script>
+</head>
+<body>
+    <div class="banner">
+        <h1>Universidad Minuto de DIOS</h1>
+    </div>
+    <nav>
+        <a href="index.html" class="nav-link">Inicio</a>
+        <a href="#modal-actividad-total" class="nav-link" id="btn-actividades-pendientes">Actividades del Semestre</a>
+    </nav>
+    <h2>Materias Inscritas</h2>
+    <img src="img/ind1.png" alt="Imagen Ingeniería Web" class="curso-imagen">
+    <div class="curso-grid">
+        <div class="curso-card">
+            <h3 class="curso-titulo">Ingeniería Web I</h3>
+            <div class="curso-categoria">Ciencias Basicas</div>
+            <div class="contenedor-but_prog">
+                <a href="cursouno.html" class="curso-boton">Ir al curso</a>
+            </div>
+            <button class="toggle-button" onclick="toggleTareas(this)">Tareas</button>
+            <div class="tareas">
+                <input type="checkbox" name="checkbox" data-id="INGENIERIA WEB I - Actividad 1 - Unidad 1" data-unidad="1" disabled>
+                <input type="checkbox" name="checkbox" data-id="INGENIERIA WEB I - Actividad 2 - Unidad 1" data-unidad="1" disabled>
+                <input type="checkbox" name="checkbox" data-id="INGENIERIA WEB I - Actividad 3 - Unidad 1" data-unidad="1" disabled>
+                <input type="checkbox" name="checkbox" data-id="INGENIERIA WEB I - Actividad 4 - Unidad 2" data-unidad="1" disabled>
+                <input type="checkbox" name="checkbox" data-id="INGENIERIA WEB I - Actividad 5 - Unidad 2" data-unidad="1" disabled>
+                <input type="checkbox" name="checkbox" data-id="INGENIERIA WEB I - Actividad 6 - Unidad 2" data-unidad="1" disabled>
+                <input type="checkbox" name="checkbox" data-id="INGENIERIA WEB I - Actividad 7 - Unidad 3" data-unidad="1" disabled>
+                <input type="checkbox" name="checkbox" data-id="INGENIERIA WEB I - Actividad 8 - Unidad 3" data-unidad="1" disabled>
+                <input type="checkbox" name="checkbox" data-id="INGENIERIA WEB I - Actividad 9 - Unidad 3" data-unidad="1" disabled>      
+            </div>
+        </div>
+
+        <div class="curso-card">
+            <h3 class="curso-titulo">Calculo Diferencial</h3>
+            <div class="curso-categoria">Ciencias Basicas</div>
+            <div class="contenedor-but_prog">
+                <a href="./cursodos.html" class="curso-boton">Ir al curso</a>
+            </div>
+            <button class="toggle-button" onclick="toggleTareas(this)">Tareas</button>
+            <div class="tareas">
+                <input type="checkbox" name="checkbox" data-id="CALCULO DIFERENCIAL - Actividad 1 - Unidad 1" data-unidad="1" disabled>
+                <input type="checkbox" name="checkbox" data-id="CALCULO DIFERENCIAL - Actividad 2 - Unidad 1" data-unidad="1" disabled>
+                <input type="checkbox" name="checkbox" data-id="CALCULO DIFERENCIAL - Actividad 3 - Unidad 1" data-unidad="1" disabled>
+                <input type="checkbox" name="checkbox" data-id="CALCULO DIFERENCIAL - Actividad 4 - Unidad 2" data-unidad="2" disabled>
+                <input type="checkbox" name="checkbox" data-id="CALCULO DIFERENCIAL - Actividad 5 - Unidad 2" data-unidad="2" disabled>
+                <input type="checkbox" name="checkbox" data-id="CALCULO DIFERENCIAL - Actividad 6 - Unidad 2" data-unidad="2" disabled>
+                <input type="checkbox" name="checkbox" data-id="CALCULO DIFERENCIAL - Actividad 7 - Unidad 3" data-unidad="3" disabled>
+                <input type="checkbox" name="checkbox" data-id="CALCULO DIFERENCIAL - Actividad 8 - Unidad 3" data-unidad="3" disabled>       
+                <input type="checkbox" name="checkbox" data-id="CALCULO DIFERENCIAL - Actividad 9 - Unidad 3" data-unidad="3" disabled>       
+            </div>
+        </div>
+
+        <div class="curso-card">
+            <h3 class="curso-titulo">Catedra Minuto de Dios</h3>
+            <div class="curso-categoria">Ciencias Basicas</div>
+            <div class="contenedor-but_prog">
+                <a href="cursotres.html" class="curso-boton">Ir al curso</a>
+            </div>
+            <button class="toggle-button" onclick="toggleTareas(this)">Tareas</button>
+            <div class="tareas">
+                <input type="checkbox" name="checkbox" data-id="CATEDRA MINUTO DE DIOS - Actividad 1 - Unidad 1" data-unidad="1" disabled>
+                <input type="checkbox" name="checkbox" data-id="CATEDRA MINUTO DE DIOS - Actividad 2 - Unidad 1" data-unidad="1" disabled>
+                <input type="checkbox" name="checkbox" data-id="CATEDRA MINUTO DE DIOS - Actividad 3 - Unidad 1" data-unidad="1" disabled>
+                <input type="checkbox" name="checkbox" data-id="CATEDRA MINUTO DE DIOS - Actividad 4 - Unidad 2" data-unidad="2" disabled>
+                <input type="checkbox" name="checkbox" data-id="CATEDRA MINUTO DE DIOS - Actividad 5 - Unidad 2" data-unidad="2" disabled>
+                <input type="checkbox" name="checkbox" data-id="CATEDRA MINUTO DE DIOS - Actividad 6 - Unidad 2" data-unidad="2" disabled>
+                <input type="checkbox" name="checkbox" data-id="CATEDRA MINUTO DE DIOS - Actividad 7 - Unidad 3" data-unidad="3" disabled>
+                <input type="checkbox" name="checkbox" data-id="CATEDRA MINUTO DE DIOS - Actividad 8 - Unidad 3" data-unidad="3" disabled>
+                <input type="checkbox" name="checkbox" data-id="CATEDRA MINUTO DE DIOS - Actividad 9 - Unidad 3" data-unidad="3" disabled>
+            </div>
+        </div>
+
+        <div class="curso-card">
+            <h3 class="curso-titulo">Física Mecanica</h3>
+            <div class="curso-categoria">Ciencias Basicas</div>
+            <div class="contenedor-but_prog">
+                <a href="cursocuatro.html" class="curso-boton">Ir al curso</a>
+            </div>
+            <button class="toggle-button" onclick="toggleTareas(this)">Tareas</button>
+            <div class="tareas">
+                <input type="checkbox" name="checkbox" data-id="FISICA MECANICA - Actividad 1 - Unidad 1" data-unidad="1" disabled>
+                <input type="checkbox" name="checkbox" data-id="FISICA MECANICA - Actividad 2 - Unidad 1" data-unidad="1" disabled>
+                <input type="checkbox" name="checkbox" data-id="FISICA MECANICA - Actividad 3 - Unidad 1" data-unidad="1" disabled>
+                <input type="checkbox" name="checkbox" data-id="FISICA MECANICA - Actividad 4 - Unidad 2" data-unidad="2" disabled>
+                <input type="checkbox" name="checkbox" data-id="FISICA MECANICA - Actividad 5 - Unidad 2" data-unidad="2" disabled>
+                <input type="checkbox" name="checkbox" data-id="FISICA MECANICA - Actividad 6 - Unidad 2" data-unidad="2" disabled>
+                <input type="checkbox" name="checkbox" data-id="FISICA MECANICA - Actividad 7 - Unidad 3" data-unidad="3" disabled>
+                <input type="checkbox" name="checkbox" data-id="FISICA MECANICA - Actividad 8 - Unidad 3" data-unidad="3" disabled>
+                <input type="checkbox" name="checkbox" data-id="FISICA MECANICA - Actividad 9 - Unidad 3" data-unidad="3" disabled>
+            </div>
+        </div>
+
+        <div class="curso-card">
+            <h3 class="curso-titulo">Algebra Lineal</h3>
+            <div class="curso-categoria">Ingeniería Sistemas</div>
+            <span>Aun no Iniciado</span>
+            <div class="contenedor-but_prog">
+                <a href="#" class="curso-boton">Ir al curso</a>
+            </div>
+        </div>
+
+        <div class="curso-card">
+            <h3 class="curso-titulo">Metodología de la Investigación</h3>
+            <div class="curso-categoria">Ingeniería Sistemas</div>
+            <span>Aun no Iniciado</span>
+            <div class="contenedor-but_prog">
+                <a href="#" class="curso-boton">Ir al curso</a>
+            </div>
+        </div>
+    </div>
+    <!-- Ventana Modal Actividades -->
+    <div id="modal-actividad-total" class="modal">
+        <div class="modal-content">
+            <a href="#" class="close">×</a>
+            <h1>ACTIVIDADES DEL SEMESTRE</h1>
+            <ul id="tareas-realizadas"></ul>
+            <ul id="tareas-pendientes"></ul>   
+        </div>
+    </div>
+</body>
+<footer>
+    <p> 2025 - Universidad Minuto de Dios.</p>
+</footer>
+</html>

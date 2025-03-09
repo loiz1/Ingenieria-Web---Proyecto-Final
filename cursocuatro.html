@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Física Mecánica</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <div class="banner">
+        <h1>Universidad Minuto de DIOS</h1>
+    </div>
+    <nav>
+        <a href="index.html" class="nav-link">Inicio</a>
+        <a href="aula.html" class="nav-link">Volver</a>
+    </nav>
+    <h2>Física Mecánica</h2>
+    <img src="img/fm.png" alt="Imagen Física Mecánica" class="curso-imagen">
+    <div class="curso-grid">
+        <div class="curso-card">
+            <h3 class="curso-titulo">Contenidos</h3>
+            <a href="#modal-actividad-total" class="curso-boton1">Actividades del Curso</a>
+            <a href="#modal-tematicas" class="curso-boton1">Tematicas del Curso</a>
+        </div>
+        <div class="curso-card">
+            <h3 class="curso-titulo">Unidad 1</h3>
+            <div class="div-guia">
+                <a href="#modal-guia1" class="curso-boton1">Guía 1</a>
+                <a href="#modal-actividad1" class="curso-boton1">Actividad 1</a>
+            </div>
+            <div class="div-guia">
+                <a href="#modal-guia2" class="curso-boton1">Guía 2</a>
+                <a href="#modal-actividad2" class="curso-boton1">Actividad 2</a>
+            </div>
+            <div class="div-guia">
+                <a href="#modal-guia3" class="curso-boton1">Guía 3</a>
+                <a href="#modal-actividad3" class="curso-boton1">Actividad 3</a>
+            </div>
+        </div>
+        <div class="curso-card">
+            <h3 class="curso-titulo">Unidad 2</h3>
+            <div class="div-guia">
+                <a href="#modal-guia4" class="curso-boton1">Guía 4</a>
+                <a href="#modal-actividad4" class="curso-boton1">Actividad 4</a>
+            </div>
+            <div class="div-guia">
+                <a href="#modal-guia5" class="curso-boton1">Guía 5</a>
+                <a href="#modal-actividad5" class="curso-boton1">Actividad 5</a>
+            </div>
+            <div class="div-guia">
+                <a href="#modal-guia6" class="curso-boton1">Guía 6</a>
+                <a href="#modal-actividad6" class="curso-boton1">Actividad 6</a>
+            </div>
+        </div>
+        <div class="curso-card">
+            <h3 class="curso-titulo">Unidad 3</h3>
+            <div class="div-guia">
+                <a href="#modal-guia7" class="curso-boton1">Guía 7</a>
+                <a href="#modal-actividad7" class="curso-boton1">Actividad 7</a>
+            </div>
+            <div class="div-guia">
+                <a href="#modal-guia8" class="curso-boton1">Guía 8</a>
+                <a href="#modal-actividad8" class="curso-boton1">Actividad 8</a>
+            </div>
+            <div class="div-guia">
+                <a href="#modal-guia9" class="curso-boton1">Guía 9</a>
+                <a href="#modal-actividad9" class="curso-boton1">Actividad 9</a>
+            </div>
+        </div>
+    </div>
+    <!-- Ventana Modal Actividades -->
+    <div id="modal-actividad-total" class="modal">
+        <div class="modal-content">
+            <a href="#" class="close">×</a>
+            <h1>Actividades del Curso</h1>
+            <ul id="tareas-realizadas"></ul>
+            <ul id="tareas-pendientes"></ul>
+        </div>
+    </div>
+    <div id="modal-tematicas" class="modal">
+        <div class="modal-content">
+            <a href="#" class="close">×</a>
+            <h1>Temáticas del Curso</h1>
+            <!-- Unidad 1 -->
+            <div class="unidad">
+                <h2>Unidad 1: Cinemática</h2>
+                <ul id="Unidad-1">
+                    <li>
+                        <h3>Movimiento Rectilíneo Uniforme</h3>
+                        <p>Estudiar movimiento rectilíneo uniforme y sus ecuaciones</p>
+                        <h4>Fecha Máxima: 10-09-25</h4>
+                    </li>
+                    <li><br>
+                        <h3>Movimiento Rectilíneo Uniformemente Acelerado</h3>
+                        <p>Analizar movimiento rectilíneo uniformemente acelerado</p>
+                        <h4>Fecha Máxima: 15-09-25</h4>
+                    </li>
+                    <li><br>
+                        <h3>Movimiento Circular Uniforme</h3>
+                        <p>Comprender movimiento circular uniforme y sus características</p>
+                        <h4>Fecha Máxima: 20-09-25</h4>
+                    </li>
+                </ul>
+            </div>
+            <!-- Unidad 2 -->
+            <div class="unidad">
+                <h2>Unidad 2: Dinámica</h2>
+                <ul id="Unidad-2">
+                    <li><br>
+                        <h3>Leyes de Newton</h3>
+                        <p>Estudiar las leyes de Newton y sus aplicaciones</p>
+                        <h4>Fecha Máxima: 25-09-25</h4>
+                    </li>
+                    <li><br>
+                        <h3>Fuerzas y Trabajo</h3>
+                        <p>Analizar conceptos de fuerzas y trabajo en física mecánica</p>
+                        <h4>Fecha Máxima: 05-10-25</h4>
+                    </li>
+                    <li><br>
+                        <h3>Energía Cinética y Potencial</h3>
+                        <p>Comprender energía cinética y potencial y sus relaciones</p>
+                        <h4>Fecha Máxima: 10-10-25</h4>
+                    </li>
+                </ul>
+            </div>
+            <!-- Unidad 3 -->
+            <div class="unidad">
+                <h2>Unidad 3: Colisiones y Momento Angular</h2>
+                <ul id="Unidad-3">
+                    <li><br>
+                        <h3>Colisiones Elasticas e Inelásticas</h3>
+                        <p>Estudiar tipos de colisiones y sus características</p>
+                        <h4>Fecha Máxima: 15-10-25</h4>
+                    </li>
+                    <li><br>
+                        <h3>Momento Angular</h3>
+                        <p>Comprender el concepto de momento angular y sus aplicaciones</p>
+                        <h4>Fecha Máxima: 20-10-25</h4>
+                    </li>
+                    <li><br>
+                        <h3>Ecuaciones de Movimiento Rotacional</h3>
+                        <p>Estudiar ecuaciones de movimiento rotacional</p>
+                        <h4>Fecha Máxima: 25-10-25</h4>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- Ventana Modal Guia 1 y Actividad 1 -->
+    <div id="modal-guia1" class="modal">
+        <div class="modal-content">
+            <a href="#" class="close">×</a>
+            <h1>Guía de Aprendizaje 1</h1><br>
+            <h2>Movimiento Rectilíneo Uniforme</h2> 
+            <p>El movimiento rectilíneo uniforme es un tipo de movimiento en línea recta en el que la velocidad es constante.</p><br>
+            <h3>Conceptos Básicos</h3>
+            <p>Definición de movimiento rectilíneo uniforme, ecuaciones de posición, velocidad y aceleración.</p>
+            <br><a href="#modal-actividad1" class="curso-boton1">Actividad</a>
+        </div>
+    </div>
+    <div id="modal-actividad1" class="modal2">
+        <div class="modal-content">
+            <a href="#" class="close">×</a>
+            <h1>Actividad 1</h1><br>
+            <h2>Estudiar movimiento rectilíneo uniforme y sus ecuaciones</h2>
+            <label>
+                <input type="checkbox" name="checkbox" data-id="FISICA MECANICA - Actividad 1 - Unidad 1" data-unidad="1">
+                <span>Tarea Realizada</span>
+            </label>
+            <br><br>
+            <h4>Fecha Máxima: 10-09-25</h4>
+        </div>
+    </div>
+    <!-- Ventana Modal Guia 2 y Actividad 2 -->
+    <div id="modal-guia2" class="modal">
+        <div class="modal-content">
+            <a href="#" class="close">×</a>
+            <h1>Guía de Aprendizaje 2</h1><br>
+            <h2>Movimiento Rectilíneo Uniformemente Acelerado</h2>
+            <p>El movimiento rectilíneo uniformemente acelerado es un tipo de movimiento en línea recta en el que la aceleración es constante.</p><br>
+            <h3>Principios de Movimiento</h3>
+            <p>Definición de movimiento rectilíneo uniformemente acelerado, ecuaciones de posición, velocidad y aceleración.</p>
+            <br><a href="#modal-actividad2" class="curso-boton1">Actividad</a>
+        </div>
+    </div>
+    <div id="modal-actividad2" class="modal2">
+        <div class="modal-content">
+            <a href="#" class="close">×</a>
+            <h1>Actividad 2</h1><br>
+            <h2>Analizar movimiento rectilíneo uniformemente acelerado</h2>
+            <label>
+                <input type="checkbox" name="checkbox" data-id="FISICA MECANICA - Actividad 2 - Unidad 1" data-unidad="1">
+                <span>Tarea Realizada</span>
+            </label>
+            <br><br>
+            <h4>Fecha Máxima: 15-09-25</h4>
+        </div>
+    </div>
+    <!-- Ventana Modal Guia 3 y Actividad 3 -->
+    <div id="modal-guia3" class="modal">
+        <div class="modal-content">
+            <a href="#" class="close">×</a>
+            <h1>Guía de Aprendizaje 3</h1><br>
+            <h2>Movimiento Circular Uniforme</h2>
+            <p>El movimiento circular uniforme es un tipo de movimiento en el que un objeto describe una trayectoria circular a velocidad constante.</p><br>
+            <h3>Características del Movimiento Circular</h3>
+            <p>Definición de movimiento circular uniforme, velocidad angular, aceleración centrípeta.</p>
+            <br><a href="#modal-actividad3" class="curso-boton1">Actividad</a>
+        </div>
+    </div>
+    <div id="modal-actividad3" class="modal2">
+        <div class="modal-content">
+            <a href="#" class="close">×</a>
+            <h1>Actividad 3</h1><br>
+            <h2>Comprender movimiento circular uniforme y sus características</h2>
+            <label>
+                <input type="checkbox" name="checkbox" data-id="FISICA MECANICA - Actividad 3 - Unidad 1" data-unidad="1">
+                <span>Tarea Realizada</span>
+            </label>
+            <br><br>
+            <h4>Fecha Máxima: 20-09-25</h4>
+        </div>
+    </div>
+    <!-- Ventana Modal Guia 4 y Actividad 4 -->
+    <div id="modal-guia4" class="modal">
+        <div class="modal-content">
+            <a href="#" class="close">×</a>
+            <h1>Guía de Aprendizaje 4</h1><br>
+            <h2>Leyes de Newton</h3>
+            <p>Las leyes de Newton son fundamentales para entender el movimiento de los cuerpos bajo la influencia de fuerzas.</p><br>
+            <h3>Aplicación de Leyes de Newton</h3>
+            <p>Ley de la inercia, segunda ley de Newton, tercera ley de Newton.</p>
+            <br><a href="#modal-actividad4" class="curso-boton1">Actividad</a>
+        </div>
+    </div>
+    <div id="modal-actividad4" class="modal2">
+        <div class="modal-content">
+            <a href="#" class="close">×</a>
+            <h1>Actividad 4</h1><br>
+            <h2>Estudiar las leyes de Newton y sus aplicaciones</h2>
+            <label>
+                <input type="checkbox" name="checkbox" data-id="FISICA MECANICA - Actividad 4 - Unidad 2" data-unidad="2">
+                <span>Tarea Realizada</span>
+            </label>
+            <br><br>
+            <h4>Fecha Máxima: 25-09-25</h4>
+        </div>
+    </div>
+    <!-- Ventana Modal Guia 5 y Actividad 5 -->
+    <div id="modal-guia5" class="modal">
+        <div class="modal-content">
+            <a href="#" class="close">×</a>
+            <h1>Guía de Aprendizaje 5</h1><br>
+            <h2>Fuerzas y Trabajo</h2>
+            <p>Las fuerzas y el trabajo son conceptos clave en la física mecánica que describen cómo las fuerzas afectan el movimiento de los objetos.</p><br>
+            <h3>Conceptos de Fuerzas y Trabajo</h3>
+            <p>Fuerzas fundamentales, trabajo realizado por una fuerza, potencia.</p>
+            <br><a href="#modal-actividad5" class="curso-boton1">Actividad</a>
+        </div>
+    </div>
+    <div id="modal-actividad5" class="modal2">
+        <div class="modal-content">
+            <a href="#" class="close">×</a>
+            <h1>Actividad 5</h1><br>
+            <h2>Analizar conceptos de fuerzas y trabajo en física mecánica</h2>
+            <label>
+                <input type="checkbox" name="checkbox" data-id="FISICA MECANICA - Actividad 5 - Unidad 2" data-unidad="2">
+                <span>Tarea Realizada</span>
+            </label>
+            <br><br>
+            <h4>Fecha Máxima: 05-10-25</h4>
+        </div>
+    </div>
+    <!-- Ventana Modal Guia 6 y Actividad 6 -->
+    <div id="modal-guia6" class="modal">
+        <div class="modal-content">
+            <a href="#" class="close">×</a>
+            <h1>Guía de Aprendizaje 6</h1><br>
+            <h2>Energía Cinética y Potencial</h2>
+            <p>La energía cinética y potencial son formas de energía que describen el movimiento y la posición de los objetos.</p><br>
+            <h3>Relaciones entre Energías</h3>
+            <p>Energía cinética, energía potencial gravitacional, energía potencial elástica.</p>
+            <br><a href="#modal-actividad6" class="curso-boton1">Actividad</a>
+        </div>
+    </div>
+    <div id="modal-actividad6" class="modal2">
+        <div class="modal-content">
+            <a href="#" class="close">×</a>
+            <h1>Actividad 6</h1><br>
+            <h2>Comprender energía cinética y potencial y sus relaciones</h2>
+            <label>
+                <input type="checkbox" name="checkbox" data-id="FISICA MECANICA - Actividad 6 - Unidad 2" data-unidad="2">
+                <span>Tarea Realizada</span>
+            </label>
+            <br><br>
+            <h4>Fecha Máxima: 10-10-25</h4>
+        </div>
+    </div>
+    <!-- Ventana Modal Guia 7 y Actividad 7 -->
+    <div id="modal-guia7" class="modal">
+        <div class="modal-content">
+            <a href="#" class="close">×</a>
+            <h1>Guía de Aprendizaje 7</h1><br>
+            <h2>Colisiones Elasticas e Inelásticas</h2>
+            <p>Las colisiones son eventos en los que dos o más cuerpos interactúan y cambian su movimiento. Se pueden clasificar como elásticas e inelásticas.</p><br>
+            <h3>Tipos de Colisiones</h3>
+            <p>Colisiones elásticas, colisiones inelásticas, conservación de momentum.</p>
+            <br><a href="#modal-actividad7" class="curso-boton1">Actividad</a>
+        </div>
+    </div>
+    <div id="modal-actividad7" class="modal2">
+        <div class="modal-content">
+            <a href="#" class="close">×</a>
+            <h1>Actividad 7</h1><br>
+            <h2>Estudiar tipos de colisiones y sus características</h2>
+            <label>
+                <input type="checkbox" name="checkbox" data-id="FISICA MECANICA - Actividad 7 - Unidad 3" data-unidad="3">
+                <span>Tarea Realizada</span>
+            </label>
+            <br><br>
+            <h4>Fecha Máxima: 15-10-25</h4>
+        </div>
+    </div>
+    <!-- Ventana Modal Guia 8 y Actividad 8 -->
+    <div id="modal-guia8" class="modal">
+        <div class="modal-content">
+            <a href="#" class="close">×</a>
+            <h1>Guía de Aprendizaje 8</h1><br>
+            <h2>Momento Angular</h2>
+            <p>El momento angular es una cantidad física que describe la rotación de un objeto y su relación con la fuerza que actúa sobre él.</p><br>
+            <h3>Conceptos de Momento Angular</h3>
+            <p>Definición de momento angular, momento de inercia, teorema del momento angular.</p>
+            <br><a href="#modal-actividad8" class="curso-boton1">Actividad</a>
+        </div>
+    </div>
+    <div id="modal-actividad8" class="modal2">
+        <div class="modal-content">
+            <a href="#" class="close">×</a>
+            <h1>Actividad 8</h1><br>
+            <h2>Comprender el concepto de momento angular y sus aplicaciones</h2>
+            <label>
+                <input type="checkbox" name="checkbox" data-id="FISICA MECANICA - Actividad 8 - Unidad 3" data-unidad="3">
+                <span>Tarea Realizada</span>
+            </label>
+            <br><br>
+            <h4>Fecha Máxima: 20-10-25</h4>
+        </div>
+    </div>
+    <!-- Ventana Modal Guia 9 y Actividad 9 -->
+    <div id="modal-guia9" class="modal">
+        <div class="modal-content">
+            <a href="#" class="close">×</a>
+            <h1>Guía de Aprendizaje 9</h1><br>
+            <h2>Ecuaciones de Movimiento Rotacional</h2>
+            <p>Las ecuaciones de movimiento rotacional describen cómo los cuerpos rotan bajo la influencia de torcas.</p><br>
+            <h3>Principios de Movimiento Rotacional</h3>
+            <p>Ecuaciones de movimiento rotacional, torca, aceleración angular.</p>
+            <br><a href="#modal-actividad9" class="curso-boton1">Actividad</a>
+        </div>
+    </div>
+    <div id="modal-actividad9" class="modal2">
+        <div class="modal-content">
+            <a href="#" class="close">×</a>
+            <h1>Actividad 9</h1><br>
+            <h2>Estudiar ecuaciones de movimiento rotacional</h2>
+            <label>
+                <input type="checkbox" name="checkbox" data-id="FISICA MECANICA - Actividad 9 - Unidad 3" data-unidad="3">
+                <span>Tarea Realizada</span>
+            </label>
+            <br><br>
+            <h4>Fecha Máxima: 25-10-25</h4>
+        </div>
+    </div>
+    <footer>
+        <p> 2025 - Universidad Minuto de Dios.</p>
+    </footer>
+</body>
+</html>
